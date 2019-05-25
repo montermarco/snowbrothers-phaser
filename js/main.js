@@ -9,13 +9,11 @@ const config = {
   width: 900,
   height: 600,
   fps: {target: 60},
-  backgroundColor: "b9eaff",
   physics: {
     default: 'arcade',
     arcade: {
-      gravity: { y: 800 },
+      gravity: { y: 1500 },
       enableBody: true,
-
     }
   },
   scene: [Level1, Level2, Level3, Level4, Credits]
